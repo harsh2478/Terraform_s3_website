@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harsh Gupta | DevOps Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background: #f9fafb;
+      color: #1f2937;
+    }
+    header {
+      background: #1f2937;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #d1d5db;
+    }
+    .container {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      font-size: 1.75rem;
+      color: #111827;
+      border-bottom: 2px solid #3b82f6;
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 1.25rem;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #1f2937;
+      color: white;
+    }
+    a {
+      color: #3b82f6;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="profile-pic.png" alt="Harsh Gupta" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; border: 4px solid white; box-shadow: 0 4px 10px rgba(0,0,0,0.2); margin-bottom: 1rem;">
+    <h1>Harsh Gupta</h1>
+    <p>DevOps Engineer | Cloud | CI/CD | Kubernetes | GitOps</p>
+    <p>Email: <a href="mailto:harsh.hg2005@gmail.com">harsh.hg2005@gmail.com</a> | 
+       <a href="https://www.linkedin.com/in/harsh-gupta05/" target="_blank">LinkedIn</a> | 
+       Phone: +91-8882864859</p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>Professional Summary</h2>
+      <p>A result-oriented engineer with hands-on experience in supporting, automating, and optimizing deployments across multiple servers and cloud platforms. Skilled in DevOps tools, CI/CD pipelines, and cloud-native practices.</p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li>B.C.A, IGNOU, New Delhi (2023 – 2026)</li>
+        <li>12th, Lions Public School (CBSE), 2023</li>
+        <li>10th, Lions Public School (CBSE), 2021</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="card"><strong>Containerization:</strong> Docker</div>
+        <div class="card"><strong>Orchestration:</strong> Kubernetes, Docker Swarm, AWS EKS, OpenShift</div>
+        <div class="card"><strong>Cloud:</strong> AWS, Azure</div>
+        <div class="card"><strong>CI/CD:</strong> Jenkins, GitLab, AWS CodePipeline</div>
+        <div class="card"><strong>IaC:</strong> Terraform</div>
+        <div class="card"><strong>Monitoring:</strong> Prometheus, Grafana, Splunk</div>
+        <div class="card"><strong>GitOps:</strong> ArgoCD</div>
+        <div class="card"><strong>Security:</strong> Trivy, Docker Scout</div>
+        <div class="card"><strong>Languages:</strong> Python, C++, Java</div>
+        <div class="card"><strong>Databases:</strong> MySQL, MongoDB</div>
+        <div class="card"><strong>Service Mesh:</strong> Istio</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <div class="card">
+        <h3>CI/CD Pipeline Implementation</h3>
+        <p><strong>Tools:</strong> GitLab, Maven, Trivy, SonarQube, Docker, Kubernetes (EKS)</p>
+        <ul>
+          <li>Automated build and deployment using Maven, Docker, and GitLab.</li>
+          <li>Scanned Docker images and ensured high-quality code using Trivy and SonarQube.</li>
+          <li>Managed deployments on Kubernetes (EKS).</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>DevSecOps Project with GitOps</h3>
+        <p><strong>Tools:</strong> GitHub, Jenkins, SonarQube, Trivy, Docker Scout, ArgoCD, EKS, Prometheus, Grafana</p>
+        <ul>
+          <li>Built secure Jenkins pipeline with Docker image scanning and SBoM generation.</li>
+          <li>Enabled GitOps deployment with ArgoCD.</li>
+          <li>Monitored apps using Prometheus and Grafana.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Microservices with GitOps & Service Mesh</h3>
+        <p><strong>Tools:</strong> GitHub, ArgoCD, Istio, EKS, Kiali, Prometheus, Grafana</p>
+        <ul>
+          <li>Set up microservices on EKS with ArgoCD and GitOps.</li>
+          <li>Implemented Istio for traffic control and service mesh observability.</li>
+          <li>Used Kiali, Prometheus, and Grafana for monitoring.</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Harsh Gupta — DevOps Portfolio
+  </footer>
+</body>
+</html>
